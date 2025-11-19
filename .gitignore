@@ -1,0 +1,67 @@
+# Byte-compiled / caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+entorno/
+.entorno/
+
+
+# Python distribution/build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# ANTLR generated files for this grammar (can be regenerated)
+GramaticaMatrices*.py
+GramaticaMatrices*.tokens
+
+# If you prefer to ignore *all* ANTLR-generated Python files, uncomment the following (use with caution):
+# *_Lexer.py
+# *_Parser.py
+# *_Listener.py
+# *_Visitor.py
+
+# Misc
+*.swp
+*.bak
+*~
+
+# Optional: lockfiles (if using pipenv/poetry)
+Pipfile.lock
+poetry.lock
+
+# environment marker
+.python-version

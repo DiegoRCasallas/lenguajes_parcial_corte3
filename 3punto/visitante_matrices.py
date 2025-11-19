@@ -41,14 +41,14 @@ class VisitanteMatrices(GramaticaMatricesVisitor):
         nombre_variable = ctx.ID().getText()
         matriz = self.visit(ctx.matrizLiteral())
         self.variables[nombre_variable] = matriz
-        print(f"✓ Matriz '{nombre_variable}' definida: {matriz}")
+        print(f"Matriz '{nombre_variable}' definida: {matriz}")
         return matriz
     
     def visitAsignacion(self, ctx: GramaticaMatricesParser.AsignacionContext):
         nombre_variable = ctx.ID().getText()
         matriz = self.visit(ctx.expresionMatriz())
         self.variables[nombre_variable] = matriz
-        print(f"✓ Matriz '{nombre_variable}' asignada: {matriz}")
+        print(f"Matriz '{nombre_variable}' asignada: {matriz}")
         return matriz
     
     def visitProductoPunto(self, ctx: GramaticaMatricesParser.MultiplicacionContext):
