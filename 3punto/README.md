@@ -104,27 +104,15 @@ calculadora-matrices/
 └── 💾 antlr-4.13.2-complete.jar   # Biblioteca ANTLR4
 
 🎮 Modos de Uso
-1. Modo Interactivo (REPL)
+
+editar el archivo pruebas.py dentro de la carpeta pruebas y hacer las operaciones con sintaxis de python y la propuesta segun la gramatica
 bash
 
-python principal.py
-
-text
-
-matriz> A = [[1,2],[3,4]]
-📝 Matriz 'A' definida: [[1.0, 2.0], [3.0, 4.0]]
-
-matriz> B = [[5,6],[7,8]]  
-📝 Matriz 'B' definida: [[5.0, 6.0], [7.0, 8.0]]
-
-matriz> A * B
-🔷 Producto punto: [[1.0, 2.0], [3.0, 4.0]] * [[5.0, 6.0], [7.0, 8.0]] = [[19.0, 22.0], [43.0, 50.0]]
-🎯 RESULTADO FINAL: [[19.0, 22.0], [43.0, 50.0]]
 
 2. Modo Script
 python
 
-from principal import evaluar_expresion
+
 
 # Evaluar expresiones directamente
 resultado = evaluar_expresion("[[1,2],[3,4]] * [[5,6],[7,8]]")
@@ -257,34 +245,3 @@ python
 I = [[1,0,0],[0,1,0],[0,0,1]]
 A = [[1,2,3],[4,5,6],[7,8,9]]
 I * A  # Resultado: misma matriz A
-
-📄 Licencia
-
-Este proyecto es de código abierto bajo la licencia MIT.
-🤝 Contribuir
-
-¿Encontraste un bug? ¿Tienes una mejora?
-
-    Haz fork del proyecto
-
-    Crea una rama: git checkout -b feature/nueva-funcionalidad
-
-    Commit tus cambios: git commit -am 'Agrega nueva funcionalidad'
-
-    Push: git push origin feature/nueva-funcionalidad
-
-    Abre un Pull Request
-
-📞 Soporte
-
-Si necesitas ayuda:
-
-    Revisa los ejemplos en principal.py
-
-    Verifica que las matrices tengan dimensiones compatibles
-
-    Asegúrate de tener Java instalado
-
-    Ejecuta el script de configuración automática
-
-¡Listo para calcular! 🎉 Ejecuta python principal.py y comienza a usar la calculadora.
